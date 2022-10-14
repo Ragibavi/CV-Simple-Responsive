@@ -1,0 +1,155 @@
+body{
+    background-color: rgb(236, 236, 233) ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin: 0;
+}
+
+
+.header{
+    height: 150px;
+    background-color: #fff;
+}
+.header img{
+    float: left;
+    width: 150px;
+    height: 150px;
+    padding-left: 400px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 100px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(104, 100, 100);
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: rgb(0, 0, 177);
+    transition: .4;
+}
+
+.bg-image{
+    padding: 9em;
+    background-size: 100%;
+    background-position: center 100%;
+    background-repeat: no-repeat;
+    background-image:url(https://1.bp.blogspot.com/-6h0wvbMljoU/X0xxXeDAJ3I/AAAAAAAAAZM/mk_-6Sv2vFQuc4a99ZK17yP8Y6sL8PV1wCLcBGAsYHQ/s6000/1.%2BGedung%2B1.JPG)
+}
+
+.perpus{
+    height: 300px;
+    background-color: rgb(180, 178, 178);
+}
+
+h2{
+    color: #fff;
+    font-size: 50px;
+}
+
+h3{
+    padding-bottom: 150px;
+    color: #fff;
+}
+
+.sejarah{
+    background-color: rgb(180, 178, 178);
+    height: 525px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.section-card{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 40px;
+    width: 80%;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card{
+    background-color: #fff;
+    box-shadow: 0 20px 40px rgba(0,0,0, .2);
+  }
+
+  .btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #eee;
+    font-weight: 500;
+
+    display: inline-block;
+    padding: 14px 20px;
+    border-radius: 100px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .visi{
+    height: 600px;
+  }
+
+  h5{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+  }
+
+  h6{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(104, 100, 100);
+  }
+
+  footer{
+    height: 30px;
+    background-color: rgb(180, 178, 178);
+  }
+
+  .bg-image__1{
+    padding:25em;
+    background-size: 100%;
+    background-position: center 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://1.bp.blogspot.com/-_3bJ7MKfmxk/X0SE2BB7i1I/AAAAAAAAAWo/8OcGPoLBOtQANbEtIB2oXOzU1-dFtqFAACLcBGAsYHQ/s2048/DSC09116.JPG);
+  }
+
+  @media only screen and (max-width:700px){
+
+    nav ul{
+      width: 100%;
+      position: absolute;
+      top: 75px;
+      right: 0;
+      z-index: 2;
+    }
+    
+    nav ul li{
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
